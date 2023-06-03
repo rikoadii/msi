@@ -1,0 +1,64 @@
+# Flutter/Dart specific
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub/
+build/
+ios/Pods/
+macos/Pods/
+android/.gradle/
+android/captures/
+android/gradle/
+android/gradlew
+android/gradlew.bat
+*.iml
+*.iws
+*.jar
+*.lock
+*.log
+*.plist
+*.properties
+*.xcworkspace/
+*.xcuserstate
+
+# Android specific
+android/app/debug.keystore
+android/app/key.properties
+
+# iOS specific
+ios/Pods/
+ios/Podfile.lock
+ios/Runner.xcworkspace/
+ios/Flutter/App.framework/
+ios/Flutter/Flutter.framework/
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+ios/Flutter/flutter_project.pbxproj
+ios/Flutter/flutter_assets/
+
+# VS Code specific
+.vscode/
+*.code-workspace
+
+# Android Studio specific
+.idea/
+*.iml
+*.ipr
+*.iws
+*.properties
+
+# macOS specific
+.DS_Store
+.profile
+*.swp
+
+# Generated files
+.dart_tool/
+.dart_tool/**
+*.g.dart
+*.freezed.dart
+*.iconfig.dart
+
+# Dependencies
+/.pub-cache/
